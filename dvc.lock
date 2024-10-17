@@ -9,8 +9,8 @@ stages:
       size: 2470
     - path: test.py
       hash: md5
-      md5: 1b5c1cda481ff2713cca41b9233015bc
-      size: 863
+      md5: d8e8eb2feac49c54372c08a8ebd8b6ee
+      size: 896
     outs:
     - path: metrics.json
       hash: md5
@@ -18,5 +18,5 @@ stages:
       size: 17
     - path: model.pkl
       hash: md5
-      md5: f8e8f72112c099c41425d1e81d1c20be
-      size: 170356
+      md5: 8c66bbe2b0d5a39ac3cd070e8261ea6c
+      size: 347534
