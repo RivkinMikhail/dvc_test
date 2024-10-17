@@ -1,0 +1,11 @@
+stages:
+  train:
+    cmd: python test.py
+    deps:
+    - iris.csv
+    - test.py
+    outs:
+    - model.pkl
+    metrics:
+    - metrics.json:
+        cache: false
